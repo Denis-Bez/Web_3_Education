@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Education_Udemy/MyContract.sol": "MyContract"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Education_Udemy/MyContract.sol": {
+			"keccak256": "0xc01ddf93142c48fd6eae741410f7f9a1810a073ee7cce2f2b67dea7f4879bea8",
+			"urls": [
+				"bzz-raw://24da6f90e946a7ce555a6a90df7eb69a15abed7e96744390bedf8f1625d3df71",
+				"dweb:/ipfs/QmTWSaoUNhMGgiGfYgRBj9N5VmrvCAcq1oSggCctjg9Nko"
+			]
+		}
+	},
+	"version": 1
+}

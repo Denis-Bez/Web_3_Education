@@ -4,7 +4,21 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "ourSrting",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,10 +47,11 @@
 	},
 	"sources": {
 		"Education_Udemy/MyContract.sol": {
-			"keccak256": "0xc01ddf93142c48fd6eae741410f7f9a1810a073ee7cce2f2b67dea7f4879bea8",
+			"keccak256": "0xa695a061d3d8c2332728cef53a56c7dbec6da6d901ba1a16348391925cb8349b",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://24da6f90e946a7ce555a6a90df7eb69a15abed7e96744390bedf8f1625d3df71",
-				"dweb:/ipfs/QmTWSaoUNhMGgiGfYgRBj9N5VmrvCAcq1oSggCctjg9Nko"
+				"bzz-raw://5129d93fac3c698fbd1241506cf855ce7bbc8031b724e13299094894ce33a1b6",
+				"dweb:/ipfs/QmbGttt33XZ6QyJ4vWkUm1uhVXAzaJtNh7NwtPm7wuVksu"
 			]
 		}
 	},

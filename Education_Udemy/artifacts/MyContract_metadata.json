@@ -22,7 +22,7 @@
 				"inputs": [
 					{
 						"internalType": "string",
-						"name": "_updateString",
+						"name": "updateString",
 						"type": "string"
 					}
 				],
@@ -60,11 +60,11 @@
 	},
 	"sources": {
 		"Education_Udemy/MyContract.sol": {
-			"keccak256": "0x9c6648d92b2b2d88b48faccd70a90fe249ad57e1daac269f47738052b84f44bf",
+			"keccak256": "0x17634f70cabee51d326d6aa403a3ffabe9e7cf0f8d7c9cd5bb4938b658ebac0f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d4d91b26bb0c22aae2ca95fb52255bdb24e80c839867c58baa8e33b472579989",
-				"dweb:/ipfs/QmbozMHoH6awrrXi547rCMcHys7p58eWArCQSTU1BnAXx6"
+				"bzz-raw://32ec0bb29c797c1a02eda1af70830339bdc684a866a44e0a05294c2e107e0ebb",
+				"dweb:/ipfs/QmbXKQxLfcHdzWG1qyKmZ6t4yvo9RHwFGg1PGyq6Bd9XWH"
 			]
 		}
 	},

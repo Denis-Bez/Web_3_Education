@@ -45,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Education_Udemy/MyContract.sol": "MyContract"
+			"contracts/MyContract.sol": "MyContract"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -59,7 +59,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"Education_Udemy/MyContract.sol": {
+		"contracts/MyContract.sol": {
 			"keccak256": "0x17634f70cabee51d326d6aa403a3ffabe9e7cf0f8d7c9cd5bb4938b658ebac0f",
 			"license": "MIT",
 			"urls": [

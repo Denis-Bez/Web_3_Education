@@ -7,6 +7,40 @@
 		"abi": [
 			{
 				"inputs": [],
+				"name": "decreementUint",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "increementInt",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "increementUint8",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myInt",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "myUint",
 				"outputs": [
 					{
@@ -73,11 +107,11 @@
 	},
 	"sources": {
 		"contracts/ExampleUint.sol": {
-			"keccak256": "0x26219387389d86efe3aa213d6098ea9b139780bb62b3c368eb092bfa041a5b8b",
+			"keccak256": "0xe285f117f4df7674c1694afc62d2fe8fb9d46c17e7b549e988e25eb0cf576584",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://758c3977ac0ba1bdf2c0bea2601c72ca8413dc75db1f5fdd66b77dbd823c1c44",
-				"dweb:/ipfs/QmVSgeUVebsYmHaTWWFoKrcrXzKDCTyPa8ux5rUyxWT4vp"
+				"bzz-raw://6e250b18a31817d7a1a0f1490d419ea7cdc9d351fad56eaa841e8e4167a9a995",
+				"dweb:/ipfs/QmVRugfHX7DMsBZM2NtseLqi51Cp5KSFctvGcehXB4cWqX"
 			]
 		}
 	},

@@ -92,7 +92,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ExampleWrapAround.sol": "ExampleUint"
+			"contracts/ExampleWrapAround.sol": "ExampleWrap"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -107,11 +107,11 @@
 	},
 	"sources": {
 		"contracts/ExampleWrapAround.sol": {
-			"keccak256": "0xe285f117f4df7674c1694afc62d2fe8fb9d46c17e7b549e988e25eb0cf576584",
+			"keccak256": "0xc6c791a557c8891c56c3aba36d9e0ce4a7ccfb435adaf9e447ecc15d875f5480",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6e250b18a31817d7a1a0f1490d419ea7cdc9d351fad56eaa841e8e4167a9a995",
-				"dweb:/ipfs/QmVRugfHX7DMsBZM2NtseLqi51Cp5KSFctvGcehXB4cWqX"
+				"bzz-raw://4760a68305dae702e969fcfb97e136353c39f30df8ae4e1a3d5660c68cabe156",
+				"dweb:/ipfs/QmeVsw2YBjCDrJfx8dP9mVkEGj2sfkeLcNh9MeRzs77gNJ"
 			]
 		}
 	},

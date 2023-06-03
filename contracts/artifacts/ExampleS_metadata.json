@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ExampleStrings.sol": "ExampleBoolean"
+			"contracts/ExampleStrings.sol": "ExampleS"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/ExampleStrings.sol": {
-			"keccak256": "0x0abc6eacfd65462731fe0466ec0337af536f9ef874ff0890a687aed37fc3db37",
+			"keccak256": "0x4f911ee38e4f2be52b4dde4bedc8e5f3b39522c53f6cd8c5ee33e6ba6266f737",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://9ecc991e33f3edaee18f4b46ec529b750cab4fa04e8925e4bf11a05c9456b9cb",
-				"dweb:/ipfs/QmWggpXSHGsFwHYFbvwPhdmaUatgb9Ut7bCAJzrRJSXAuc"
+				"bzz-raw://32625c23dc89ec227c9265a17edc7e3b8e7da2632660942976074a0e419488d8",
+				"dweb:/ipfs/Qmc3UcGzVnmQAau8yPf2ZYast2DFyR6kWGeVjL8PEa6owz"
 			]
 		}
 	},

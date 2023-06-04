@@ -26,6 +26,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "getBytesLength",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "myBytes",
 				"outputs": [
 					{
@@ -92,11 +105,11 @@
 	},
 	"sources": {
 		"contracts/ExampleStrings.sol": {
-			"keccak256": "0xefcad1da4d828d759eadb4fbb68a939402c232d59e6ee457ae70c2675277ec89",
+			"keccak256": "0x593362a73386bc65b6ad84b890620f5d73cbcde591397f0b55613b0aab86d44d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1524dedf76650fec1126d46ed1d2786bb9986c2b1a47c7ed377a142b350821b2",
-				"dweb:/ipfs/Qma7RJpPHAnaj82Xdm1g6hNWuWEwxdafS5iqMJ9ZLhwSwr"
+				"bzz-raw://0743135097e5f634295f491314ccf4035d845442255a84e671effdda4e5f46c0",
+				"dweb:/ipfs/QmbSz65hXAexBRd1nB4bVTrUSC3NtwXovBxJu7W18XkA7w"
 			]
 		}
 	},

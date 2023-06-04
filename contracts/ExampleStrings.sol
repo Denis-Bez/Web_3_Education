@@ -15,4 +15,8 @@ contract ExampleStrings {
         return keccak256(abi.encodePacked(myString)) == keccak256(abi.encodePacked(_myString));
     }
 
+    function getBytesLength() public view returns(uint) {
+        return myBytes.length;
+    }
+
 }

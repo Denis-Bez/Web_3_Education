@@ -7,7 +7,38 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getAddressBalance",
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "payForItem",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "payments",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -19,29 +50,10 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_someAddress",
-						"type": "address"
-					}
-				],
-				"name": "setSomeAddress",
+				"inputs": [],
+				"name": "withdrowAll",
 				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "someAddress",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -58,7 +70,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/26_ExampleAddress.sol": "ExampleAddress"
+			"contracts/Demo.sol": "MyShop"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -72,12 +84,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/26_ExampleAddress.sol": {
-			"keccak256": "0x9d114a5aead31e4dab5241282338c95d09286bd7e52e9b1a1c13389adbf06bc0",
+		"contracts/Demo.sol": {
+			"keccak256": "0x9d07752aba007802f19e12b418f0d4aa9c278068f092f761f464b2ba1fb43f1e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://cf23b5dda6f94fef83a3d15e2f003711063a4fcf83cc3f784ae2bd23abfd0f19",
-				"dweb:/ipfs/QmXwZkmu1VyaXn3uTKvWGMuGX2PhjHoKNQWRMMJ9RkQinR"
+				"bzz-raw://82ab86c694567ba791e8b1d9686c4136b358e148e4c5df510703a38984f58268",
+				"dweb:/ipfs/QmWemUoAK7BhfQf7V2EkmogoWLvnm6Sf1Vjam535UK6XyX"
 			]
 		}
 	},

@@ -90,7 +90,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ExampleStrings.sol": "ExampleStrings"
+			"contracts/24_ExampleStrings.sol": "ExampleStrings"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -104,7 +104,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/ExampleStrings.sol": {
+		"contracts/24_ExampleStrings.sol": {
 			"keccak256": "0x593362a73386bc65b6ad84b890620f5d73cbcde591397f0b55613b0aab86d44d",
 			"license": "MIT",
 			"urls": [

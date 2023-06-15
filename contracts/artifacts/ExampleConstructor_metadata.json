@@ -6,24 +6,13 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_someAddress",
-						"type": "address"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
 				"inputs": [],
-				"name": "myAddress",
+				"name": "decimalpoints",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "uint256",
 						"name": "",
-						"type": "address"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -32,21 +21,25 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "_myAddress",
-						"type": "address"
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
 					}
 				],
-				"name": "setMyAddress",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "setMyAddressToMsgSender",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "setSubtraction",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -63,7 +56,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/31_ExampleConstructor.sol": "ExampleConstructor"
+			"contracts/33_Summarize.sol": "ExampleConstructor"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -77,12 +70,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/31_ExampleConstructor.sol": {
-			"keccak256": "0xcb22373a9c6b724cf398eaf2acaaf15e398188de71d8408019484abe106bbe56",
+		"contracts/33_Summarize.sol": {
+			"keccak256": "0x688eb245a8daedf9459491af090a028039109ee4627af559ec68d16730e0c59b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c659835433ad13756b03325e4abd7f8e9998aaaba7ce8c039f8c67f6d451f782",
-				"dweb:/ipfs/QmQiFEzGzq3KnpY3mtCjsA4Cf9HCQSNkJd5s2ysY6WLcwo"
+				"bzz-raw://652914f40818c9edb2155b7b0b10bd064240ace6a9e8bd38d868015d5e101114",
+				"dweb:/ipfs/QmRw41rK2afab1d3UJRriLDacmrEtuS1oHsnAs8UpYEbms"
 			]
 		}
 	},

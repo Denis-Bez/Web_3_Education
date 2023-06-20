@@ -10,13 +10,20 @@ pragma solidity 0.8.18;
 
 contract TheBlockchainMessanger {
 
-    string public message;
-    uint public messageCount;
-    address public addressCreate;
+    uint public changeCounter;
+    
+    address public owner;
 
-    function writeMessage(string memory _message) public {
-        message = _message;
-        messageCount++;
+    string public theMessage;
+
+    constructor() {
+        owner = msg.sender;
     }
 
+    function updateTheMessage(string memory _newMessage) public {
+        if(msg.sender == owner) {
+            theMessage = _newMessage;
+            changeCounter++;
+        }
+    }
 }

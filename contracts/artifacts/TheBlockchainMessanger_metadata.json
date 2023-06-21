@@ -91,11 +91,11 @@
 	},
 	"sources": {
 		"contracts/34_TheBlickchainMessanger.sol": {
-			"keccak256": "0xb9ffeba36dac5e22b3bd70b79f55d9b073d5b750ca0c583b7fbb672cce8e2554",
+			"keccak256": "0x57a0f2149140f4cdcad0c55c7545c6649a16dd36c82551053740ecc56b6a6ae5",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d06ae842929a3b18f4882a7077c0c4c6eff8c187e6599e8923470ba4fac80526",
-				"dweb:/ipfs/QmSVa753apT8Tnf1D7AJZKkH1PA5HoPQkw4U1H8YeTH3QQ"
+				"bzz-raw://063e75cf4949fe0dd8b4eb9bafa762eccd73c58fa73dafcb3bf39b2871a57727",
+				"dweb:/ipfs/QmcxRZQ2K6P614mUzizwUgrQkw6U2jKSvGvvhAA7GTWurS"
 			]
 		}
 	},

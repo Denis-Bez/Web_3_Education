@@ -5,15 +5,13 @@ pragma solidity 0.8.18;
 
 //+ Store string on the blockchain
 //+ Readable for everyone
-//- Writable for person who deployed
+//+ Writable for person who deployed
 //+ Shows how many times message was updated
 
 contract TheBlockchainMessanger {
 
     uint public changeCounter;
-    
     address public owner;
-
     string public theMessage;
 
     constructor() {

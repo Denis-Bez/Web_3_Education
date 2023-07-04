@@ -28,7 +28,7 @@
 				],
 				"name": "updateString",
 				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "payable",
 				"type": "function"
 			}
 		],
@@ -45,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/47_SampleContract.sol": "SampleContract"
+			"contracts/49_ThePayableModifier.sol": "SampleContract"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -59,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/47_SampleContract.sol": {
-			"keccak256": "0x485c5fd07e6256683d1383fd01255cb295261e26af3eced239596541bed50e09",
+		"contracts/49_ThePayableModifier.sol": {
+			"keccak256": "0xa0ffe63e2288c99c706a318796901d1d47490a5319f3e879a90025beececc43d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8e72bfd768ecc9ece6f6d7cff3e0cb9ef3bc872e78ce800fe9d92c905386b9f1",
-				"dweb:/ipfs/QmRjBS25Hzh49pC4BKVxz9eNxcWGozbJ3ZsGKQPJtSiubA"
+				"bzz-raw://9714053b382b3a7eef82fca0ca4fd4de05dbe3107da83827115b8bb577463ad4",
+				"dweb:/ipfs/QmP6RzzDoaM1CrsPKoyPdpm4uapbCR2PWSj8WcK3rqTkXK"
 			]
 		}
 	},

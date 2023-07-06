@@ -4,7 +4,68 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "lastFunctionCalled",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "lastValueSent",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myUint",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_myNewUint",
+						"type": "uint256"
+					}
+				],
+				"name": "setMyUint",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +94,11 @@
 	},
 	"sources": {
 		"contracts/51_SampleFallback.sol": {
-			"keccak256": "0xde10e2c77eba1f4fff6a586f75d976b25a67ee77b99a1f7e178c100b2ef2891a",
+			"keccak256": "0x48fc3b91cc2842790df5ec7d645835246c7d3f1fc81edc7967a69d0617295ea9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ac2a7fce7c6ebb03ffa10861a858fbe97b465da78e333098151fdabdcd0f6d32",
-				"dweb:/ipfs/QmXeoy8tb7GV4QLwJevSdnTVFhTxjWWi15bZp67EJkavmi"
+				"bzz-raw://c8184320828c0975e40e63b1293bd0fa40052703949a529b58a3dbf324131bbb",
+				"dweb:/ipfs/QmX2vxSZ2z992KwBvkVYdGfHdS87cbvLoJkFaVdPZK2mGq"
 			]
 		}
 	},

@@ -4,68 +4,7 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [
-			{
-				"stateMutability": "payable",
-				"type": "fallback"
-			},
-			{
-				"inputs": [],
-				"name": "lastFunctionCalled",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "lastValueSent",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "myUint",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_myNewUint",
-						"type": "uint256"
-					}
-				],
-				"name": "setMyUint",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"stateMutability": "payable",
-				"type": "receive"
-			}
-		],
+		"abi": [],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -79,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/51_SampleFallback.sol": "SampleFallback"
+			"contracts/54_LAB_WalletSmartContract.sol": "SampleFallback"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -93,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/51_SampleFallback.sol": {
-			"keccak256": "0x48fc3b91cc2842790df5ec7d645835246c7d3f1fc81edc7967a69d0617295ea9",
+		"contracts/54_LAB_WalletSmartContract.sol": {
+			"keccak256": "0x85dc679e7c47ca149a59e5ccb442cc3ea507a4d17e3375dee742a29fe1e1f5b1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c8184320828c0975e40e63b1293bd0fa40052703949a529b58a3dbf324131bbb",
-				"dweb:/ipfs/QmX2vxSZ2z992KwBvkVYdGfHdS87cbvLoJkFaVdPZK2mGq"
+				"bzz-raw://8aa6ac804698afa8eaab3e1d62c539840411351159634d6512993c34a8ba1cfa",
+				"dweb:/ipfs/QmRezAYLY29XAGpLETTmjePLYF68XvKKdR5D2MWuFjnGb2"
 			]
 		}
 	},

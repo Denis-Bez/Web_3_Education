@@ -7,6 +7,6 @@ pragma solidity 0.8.18;
 // - Withdraw ETH that was be send to deposit address
 // - Withdrow ETH to specific address
 
-contract SampleFallback {
+contract WalletSmartContract {
 
 }

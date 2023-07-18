@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/54_LAB_SendMoneyExample.sol": "WalletSmartContract"
+			"contracts/54_LAB_SendMoneyExample.sol": "SendWithdrawContract"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/54_LAB_SendMoneyExample.sol": {
-			"keccak256": "0xf69a6785ae7725369e3e9e4580f33c48f7e2c3b8e6eafa28adfbe0ab82ff1d80",
+			"keccak256": "0x9e6bc6fca9a2e8517609deec4c43e712563fb7caef6be7c3ee3968f7fc8e8e63",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3dcdd1dd73eac3c6db9b8cb47248e685bdd63612649771aab2ecc3823179f991",
-				"dweb:/ipfs/QmXvQwYGFSG3nN2vQsFv8Ab2n5pWWSi7F7tWSb9t6aYBxB"
+				"bzz-raw://6e9f85dd324a94e126f496faadc2c47c0c5854c2aafd63b7f8b3038a5bd8153f",
+				"dweb:/ipfs/Qme6PbNuHH85RFhQTHaRcFdwDvVS1swFYWbRJfaKsqhxNZ"
 			]
 		}
 	},

@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.18+commit.87f61d96"
+		"version": "0.8.20+commit.a1b79de6"
 	},
 	"language": "Solidity",
 	"output": {
@@ -74,7 +74,7 @@
 		"compilationTarget": {
 			"contracts/54_LAB_SendMoneyExample.sol": "SendWithdrawMoney"
 		},
-		"evmVersion": "paris",
+		"evmVersion": "shanghai",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -87,11 +87,11 @@
 	},
 	"sources": {
 		"contracts/54_LAB_SendMoneyExample.sol": {
-			"keccak256": "0xeab52015d9caffdce2cacaded04cb25deb5b305dc33fd6356a791f9ab197baba",
+			"keccak256": "0x439ee83c396749029c2f17e3578b61e6ef43752755f526cd530bb1bd48439909",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b71e8d1cab410e0caf45440b83e717cf8c5b938c29c0f51066a793dc1331c861",
-				"dweb:/ipfs/QmVVkoNKZrWTjSSuP9XPpJuf3QodWANoommDPc1hwv8RMB"
+				"bzz-raw://568aac3834c562ffbb480a7bc2af597e47a80e6d7f97d52d2c4719db7188a691",
+				"dweb:/ipfs/QmVL9cLUM4Dx3qz4Kjc37pchbAfSf5fNjag7MCGsheMCkn"
 			]
 		}
 	},

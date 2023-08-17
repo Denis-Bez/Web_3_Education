@@ -4,45 +4,7 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [
-			{
-				"inputs": [],
-				"name": "decimalpoints",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "a",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "b",
-						"type": "uint256"
-					}
-				],
-				"name": "setSubtraction",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			}
-		],
+		"abi": [],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -56,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/33_Summarize.sol": "ExampleConstructor"
+			"contracts/58_ExampleMapping.sol": "ExampleConstructor"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -70,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/33_Summarize.sol": {
-			"keccak256": "0x688eb245a8daedf9459491af090a028039109ee4627af559ec68d16730e0c59b",
+		"contracts/58_ExampleMapping.sol": {
+			"keccak256": "0xd2cbfac9bc1e97470fdc468df67c7eb64afe46acc2f8b49de483059461fbc5a7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://652914f40818c9edb2155b7b0b10bd064240ace6a9e8bd38d868015d5e101114",
-				"dweb:/ipfs/QmRw41rK2afab1d3UJRriLDacmrEtuS1oHsnAs8UpYEbms"
+				"bzz-raw://5fac1524e1f7d088584068a718569fb2e06b75b996b5d5ef3a6a0766a9ba3608",
+				"dweb:/ipfs/QmP1TCKnXW1NnWVEUEjkYHMXfXZydcLfhJezx8jNiCGucx"
 			]
 		}
 	},

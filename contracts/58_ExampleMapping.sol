@@ -7,6 +7,7 @@ contract ExampleMapping {
     mapping(uint => bool) public myMapping;
     mapping(address => bool) public myAddressMapping;
     mapping(uint => mapping(uint => bool)) public uintUintBoolMapping;
+    mapping(uint => mapping(uint => bool)) uintUintBoolMappingNotPublic;
 
     function setValue(uint _index) public {
         myMapping[_index] = true;
@@ -19,5 +20,14 @@ contract ExampleMapping {
     function setUintUintBoolMapping(uint _key1, uint _key2, bool _value) public {
         uintUintBoolMapping[_key1][_key2] = _value;
     }
+
+    function setUintUintBoolMappingNotPublic(uint _index1, uint _index2, bool _value) public {
+        uintUintBoolMappingNotPublic[_index1][_index2] = _value;
+    }
+    function getUintUintBoolMappingNotPublic(uint _index1, uint _index2) public view returns(bool) {
+        return uintUintBoolMappingNotPublic[_index1][_index2];
+    }
+
+
 
 }

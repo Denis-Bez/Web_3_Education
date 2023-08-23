@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/59_LAB_SolidityMappings.sol": "ExampleMapping"
+			"contracts/59_LAB_SolidityMappings.sol": "MappingsStruct"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/59_LAB_SolidityMappings.sol": {
-			"keccak256": "0xad64096c5d12db3f28c097ebb09df49c587da4eda602b97be19a265786cd5eb9",
+			"keccak256": "0x3ad0967d69910f277ca822837d68d375da0afd95b52f8ebe5a93ab70a2200a2d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://dedfa7d23d2fe59e72e56447efd3d693f67948b510de59c8054a67c84ab008ef",
-				"dweb:/ipfs/QmSRCKNb2sa91TtPAe9YA9ETJN4sQFCdc38Uum7456jqYJ"
+				"bzz-raw://47b18784a98b8198a91325c83e1287b71c0141cc7c34b78e273ea5b10cdbc490",
+				"dweb:/ipfs/QmRA8AioiSUH1cQXg4T69aKBNSsHt32jM5jMLkR997VQRG"
 			]
 		}
 	},

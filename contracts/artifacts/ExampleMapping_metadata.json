@@ -4,7 +4,160 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_index2",
+						"type": "uint256"
+					}
+				],
+				"name": "getUintUintBoolMappingNotPublic",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "myAddressMapping",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "myMapping",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setMyAddressToTrue",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_key1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_key2",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "_value",
+						"type": "bool"
+					}
+				],
+				"name": "setUintUintBoolMapping",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_index2",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "_value",
+						"type": "bool"
+					}
+				],
+				"name": "setUintUintBoolMappingNotPublic",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "setValue",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "uintUintBoolMapping",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +171,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/59_LAB_SolidityMappings.sol": "ExampleMapping"
+			"contracts/58_ExampleMapping.sol": "ExampleMapping"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -32,12 +185,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/59_LAB_SolidityMappings.sol": {
-			"keccak256": "0xad64096c5d12db3f28c097ebb09df49c587da4eda602b97be19a265786cd5eb9",
+		"contracts/58_ExampleMapping.sol": {
+			"keccak256": "0x13f92dfe1d53260df14f653be96218c664727ac1e384c331bc0d6c10c89d9299",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://dedfa7d23d2fe59e72e56447efd3d693f67948b510de59c8054a67c84ab008ef",
-				"dweb:/ipfs/QmSRCKNb2sa91TtPAe9YA9ETJN4sQFCdc38Uum7456jqYJ"
+				"bzz-raw://1d58fc6b5a92e670b8753276b129cb39ad49de48af2aea44b6fdb3ef5d2936cc",
+				"dweb:/ipfs/QmaDFF5zMkfYZdhqT74qmnDjSHbuML63StGhbAzrEynXWu"
 			]
 		}
 	},

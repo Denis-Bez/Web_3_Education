@@ -6,6 +6,25 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balanceReceived",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "getBalance",
 				"outputs": [
@@ -37,6 +56,24 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdrawMoney",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -52,7 +89,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/59_LAB_SolidityMappings.sol": "MappingsStructExample"
+			"contracts/59_LAB_SecurityThroughMappings.sol": "MappingsStructExample"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -66,12 +103,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/59_LAB_SolidityMappings.sol": {
-			"keccak256": "0x912f8c7727f16d1f69487c6b83428716e6bf92f46378c84dbee7b7c3b4f36354",
+		"contracts/59_LAB_SecurityThroughMappings.sol": {
+			"keccak256": "0x64c9709bc0ef07954c3b59a4a5cab16e64bf59cc42183f81ccd4708d38684612",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1874cbe50fa66bc6e84d0c5f4e4e66a0b672a94cd6546ffd0b542d9dfbd93a5d",
-				"dweb:/ipfs/QmNnJKGzZ4yTYBz8ZJ1qxnT69xu6pfSAFLZ7GaikmrXNDT"
+				"bzz-raw://4fcb54478e5c30dac469e0c2e274e82f3fde560f0f18e9f761a35a35f4bceffa",
+				"dweb:/ipfs/QmZHGb5iL4bkDGyoSabRxZT7KspG5iaLwZSnBk3QBVSufa"
 			]
 		}
 	},

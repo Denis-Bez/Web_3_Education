@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/60_ExampleMapping2.sol": "MappingsStructExample"
+			"contracts/60_ExampleMapping2.sol": "ExampleMappingWithdrawls"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/60_ExampleMapping2.sol": {
-			"keccak256": "0xaccd98049d6cd36cc0f4c05bc53d212678d75336805e6f034376e8859bd83202",
+			"keccak256": "0x8ddf768a6b1d5307026ac987adfa67223a77eb1b2b9521bf258abba834cc542f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://fca330b817bb21d707273a071587066bb237e0f3130201cb23e05c5923b23115",
-				"dweb:/ipfs/QmSUJPMPoCLU1BhLvRoVP8mWtkWJk493KpHjWKsuiPvfaL"
+				"bzz-raw://5485e2fba88e0a5770168f2c192770e9a9597a3569fe4ec53c0d810305e42ae8",
+				"dweb:/ipfs/QmZL6S9t2saCdv2hMoYtxNJg8jM3vtWsXWXGBCgVvVkm1r"
 			]
 		}
 	},

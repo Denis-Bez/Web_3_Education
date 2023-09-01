@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/60_ExampleMapping2.sol": "MappingsStructExample"
+			"contracts/60_ExampleMapping2.sol": "ExampleMappingWithde"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/60_ExampleMapping2.sol": {
-			"keccak256": "0xaccd98049d6cd36cc0f4c05bc53d212678d75336805e6f034376e8859bd83202",
+			"keccak256": "0xc90c4c55dd033233b1f6632d2edba61fadb1d05335cb0f8790f835b74573d45e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://fca330b817bb21d707273a071587066bb237e0f3130201cb23e05c5923b23115",
-				"dweb:/ipfs/QmSUJPMPoCLU1BhLvRoVP8mWtkWJk493KpHjWKsuiPvfaL"
+				"bzz-raw://246fc10430b880c5da98362736adc40fe30845a1a82562a735ff7b18f9fd7f38",
+				"dweb:/ipfs/QmUM8WNvpThhLtdJ21ZffQZAhxG5BHgSPuauikBDTTkosx"
 			]
 		}
 	},
